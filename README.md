@@ -36,3 +36,4 @@ While you can use this one as-is, you could also add a localized version to your
 ## Contributing
 
 As always, pull requests are welcome.
+
