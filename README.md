@@ -4,7 +4,7 @@
 
 [![PyPI](https://img.shields.io/pypi/wheel/legos.ctftime.svg)]() [![PyPI](https://img.shields.io/pypi/l/legos.ctftime.svg)]() [![PyPI](https://img.shields.io/pypi/status/legos.ctftime.svg)]()
 
-Fetch xkcd comics right from chat using this xkcd lego.
+Interact with CTFtime API via chat to find out information about upcoming CTF events, team rankings, and more.
 
 ## Usage
 
