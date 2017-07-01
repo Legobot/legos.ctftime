@@ -1,8 +1,8 @@
 # legos.ctftime
 
-[![Travis](https://img.shields.io/travis/bbriggs/legos.ctftime.svg)](https://travis-ci.org/bbriggs/legos.ctftime) [![PyPI](https://img.shields.io/pypi/pyversions/legos.ctftime.svg)]() [![PyPI](https://img.shields.io/pypi/v/legos.ctftime.svg)]()
+[![Travis](https://img.shields.io/travis/bbriggs/legos.ctftime.svg)](https://travis-ci.org/bbriggs/legos.ctftime) [![PyPI](https://img.shields.io/pypi/pyversions/legos.ctftime.svg)](https://pypi.python.org/pypi/legos.ctftime) [![PyPI](https://img.shields.io/pypi/v/legos.ctftime.svg)](https://pypi.python.org/pypi/legos.ctftime)
 
-[![PyPI](https://img.shields.io/pypi/wheel/legos.ctftime.svg)]() [![PyPI](https://img.shields.io/pypi/l/legos.ctftime.svg)]() [![PyPI](https://img.shields.io/pypi/status/legos.ctftime.svg)]()
+[![PyPI](https://img.shields.io/pypi/wheel/legos.ctftime.svg)](https://pypi.python.org/pypi/legos.ctftime) [![PyPI](https://img.shields.io/pypi/l/legos.ctftime.svg)](https://pypi.python.org/pypi/legos.ctftime) [![PyPI](https://img.shields.io/pypi/status/legos.ctftime.svg)](https://pypi.python.org/pypi/legos.ctftime)
 
 Interact with CTFtime API via chat to find out information about upcoming CTF events, team rankings, and more.
 
