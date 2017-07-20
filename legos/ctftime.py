@@ -19,8 +19,8 @@ from Legobot.Lego import Lego
 logger = logging.getLogger(__name__)
 API_URL = 'https://ctftime.org/api/v1'
 
-class CTFtime(Lego):
 
+class CTFtime(Lego):
 
     @staticmethod
     def listening_for(message):
@@ -36,7 +36,7 @@ class CTFtime(Lego):
 
         dispatcher = {
             'upcoming': self._get_upcoming,
-            'top10'   : self._get_top10
+            'top10': self._get_top10
         }
 
         if cmd in dispatcher:
@@ -50,7 +50,8 @@ class CTFtime(Lego):
 
     @staticmethod
     def get_help():
-        return 'Get info from the CTFtime API. Usage: !ctftime <upcoming> | <top10>'
+        return 'Get info from the CTFtime API.' \
+                'Usage: !ctftime <upcoming> | <top10>'
 
     # Internal methods (the actual work)
 
@@ -83,7 +84,6 @@ class CTFtime(Lego):
             return False
 
     def _get_top10(self, message):
-        
         year = str(datetime.now().year)
         r = requests.get('{}/top/{}/'.format(API_URL, year))
         opts = self._handle_opts(message)
@@ -91,23 +91,23 @@ class CTFtime(Lego):
         if opts is None:
             return False
         if r.status_code == requests.codes.ok:
-            teams =  r.json()[year]
+            teams = r.json()[year]
 
-            #Column formatting
-            longest_name  = max(
-                [team['team_name'] for team in teams], 
+            # Column Formatting
+            longest_name = max(
+                [team['team_name'] for team in teams],
                 key=len)
             margin_width = len(longest_name)
-            
-            #Results
+
+            # Results
             self.reply(message, '~~~{} Results~~~'.format(year), opts)
-            for team in teams: 
+            for team in teams:
                 margin = '-' * (margin_width - len(team['team_name']))
                 reply = '{}{}|{}'.format(
                     team['team_name'],
                     margin,
                     team['points'])
-                        
+
                 self.reply(message, reply, opts)
 
             return True
@@ -115,4 +115,3 @@ class CTFtime(Lego):
             reply = 'Top ten data not found for year {}'.format(year)
             self.reply(message, reply, opts)
             return False
-    
