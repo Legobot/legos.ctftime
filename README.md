@@ -6,11 +6,11 @@ Interact with CTFtime API via chat to find out information about upcoming CTF ev
 
 ## Usage
 
-CTFtime has two commands `upcoming` and `top10`. 
+CTFtime has two commands, `upcoming` and `top10`. 
 
 ### Upcoming
 
-Displays all upcoming events, with start and end timestamps:
+Displays all upcoming events with start and end times:
 
 ```
     nick | !ctftime upcoming
@@ -23,7 +23,7 @@ Displays all upcoming events, with start and end timestamps:
 
 ### Top 10
 
-Displays the top ten teams and their curent ranking:
+Displays the top ten teams and their curent rankings:
 
 ```
 nick    | !ctftime top10
