@@ -13,7 +13,7 @@ CTFtime has two commands, `upcoming` and `top10`.
 Displays all upcoming events with start and end times:
 
 ```
-    nick | !ctftime upcoming
+   nick | !ctftime upcoming
 legobot | Name: SHA2017 CTF, Format: Jeopardy, Date 2017-08-05T08:00:00+00:00 - 2017-08-06T20:00:00+00:00
 legobot | Name: HackCon 2017, Format: Jeopardy, Date 2017-08-25T21:00:00+00:00 - 2017-08-26T21:00:00+00:00
 legobot | Name: Tokyo Westerns CTF 3rd 2017, Format: Jeopardy, Date 2017-09-02T00:00:00+00:00 - 2017-09-04T00:00:00+00:00
