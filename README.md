@@ -14,11 +14,11 @@ Displays all upcoming events with start and end times:
 
 ```
     nick | !ctftime upcoming
-@legobot | Name: SHA2017 CTF, Format: Jeopardy, Date 2017-08-05T08:00:00+00:00 - 2017-08-06T20:00:00+00:00
-@legobot | Name: HackCon 2017, Format: Jeopardy, Date 2017-08-25T21:00:00+00:00 - 2017-08-26T21:00:00+00:00
-@legobot | Name: Tokyo Westerns CTF 3rd 2017, Format: Jeopardy, Date 2017-09-02T00:00:00+00:00 - 2017-09-04T00:00:00+00:00
-@legobot | Name: ASIS CTF Finals 2017, Format: Jeopardy, Date 2017-09-08T17:00:00+00:00 - 2017-09-10T17:00:00+00:00
-@legobot | Name: CSAW CTF Qualification Round 2017, Format: Jeopardy, Date 2017-09-15T16:00:00+00:00 - 2017-09-17T16:00:00+00:00
+legobot | Name: SHA2017 CTF, Format: Jeopardy, Date 2017-08-05T08:00:00+00:00 - 2017-08-06T20:00:00+00:00
+legobot | Name: HackCon 2017, Format: Jeopardy, Date 2017-08-25T21:00:00+00:00 - 2017-08-26T21:00:00+00:00
+legobot | Name: Tokyo Westerns CTF 3rd 2017, Format: Jeopardy, Date 2017-09-02T00:00:00+00:00 - 2017-09-04T00:00:00+00:00
+legobot | Name: ASIS CTF Finals 2017, Format: Jeopardy, Date 2017-09-08T17:00:00+00:00 - 2017-09-10T17:00:00+00:00
+legobot | Name: CSAW CTF Qualification Round 2017, Format: Jeopardy, Date 2017-09-15T16:00:00+00:00 - 2017-09-17T16:00:00+00:00
 ```
 
 ### Top 10
