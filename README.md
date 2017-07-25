@@ -6,6 +6,40 @@ Interact with CTFtime API via chat to find out information about upcoming CTF ev
 
 ## Usage
 
+CTFtime has two commands, `upcoming` and `top10`. 
+
+### Upcoming
+
+Displays all upcoming events with start and end times:
+
+```
+   nick | !ctftime upcoming
+legobot | Name: SHA2017 CTF, Format: Jeopardy, Date 2017-08-05T08:00:00+00:00 - 2017-08-06T20:00:00+00:00
+legobot | Name: HackCon 2017, Format: Jeopardy, Date 2017-08-25T21:00:00+00:00 - 2017-08-26T21:00:00+00:00
+legobot | Name: Tokyo Westerns CTF 3rd 2017, Format: Jeopardy, Date 2017-09-02T00:00:00+00:00 - 2017-09-04T00:00:00+00:00
+legobot | Name: ASIS CTF Finals 2017, Format: Jeopardy, Date 2017-09-08T17:00:00+00:00 - 2017-09-10T17:00:00+00:00
+legobot | Name: CSAW CTF Qualification Round 2017, Format: Jeopardy, Date 2017-09-15T16:00:00+00:00 - 2017-09-17T16:00:00+00:00
+```
+
+### Top 10
+
+Displays the top ten teams and their curent rankings:
+
+```
+nick    | !ctftime top10
+legobot | ~~~2017 Results~~~
+legobot | 217-----------------------|556.8473095563388
+legobot | Plaid Parliament of Pwning|550.9596762103753
+legobot | LC↯BC---------------------|441.75300810117955
+legobot | Bushwhackers--------------|435.99265313767927
+legobot | Dragon Sector-------------|428.0948575325616
+legobot | Shellphish----------------|400.5711435966653
+legobot | binja---------------------|345.1475045345989
+legobot | p4------------------------|336.28870164357625
+legobot | dcua----------------------|324.9802695455461
+legobot | 0daysober-----------------|317.06964731320085
+```
+
 ## Installation
 
 `pip3 install legos.ctftime`
